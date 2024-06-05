@@ -56,6 +56,20 @@
             display: flex;
         }
 
+        iframe {
+            width: 45%;
+            margin: 0 auto;
+            display: block;
+            
+        }
+
+        @media only screen and (max-width: 600px) {
+            iframe {
+                width: 100%;
+
+            }
+        }
+
     </style>
     
     <body>
@@ -85,5 +99,12 @@
             <img alt="<3" src="https://i.pinimg.com/originals/cb/c4/34/cbc434409c93d6c01afca1102c383028.gif">
             <img alt="<3" src="https://i.pinimg.com/originals/cb/c4/34/cbc434409c93d6c01afca1102c383028.gif">
         </div>
+
+        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/1tF8XoiBku5yRTSZQzS3hN?utm_source=generator&theme=0" width="100%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+
+        <audio controls autoplay style="visibility: hidden;">
+            <source src="1.mp3" type="audio/mp3">
+            error
+        </audio>
     </body>
 </html>
