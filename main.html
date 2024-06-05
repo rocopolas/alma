@@ -1,20 +1,40 @@
 <html>
+    <head>
+        <meta charset="utf-8">
+        <title>Alma <3</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
     <style>
         body {
             animation: fadein 5s; 
             background-color: black;
+            overflow: auto;
+            overflow-x: hidden;
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+
         }
-    @keyframes fadein {
-        0% {
-            opacity:0;
+
+        body::-webkit-scrollbar {
+            display: none;  /* Oculta la barra en Chrome, Safari y Opera */
         }
-        50%{
-            opacity:0.5;
+        
+        body::-webkit-scrollbar {
+            display: none;  /* Para Chrome, Safari y Opera */
         }
-        100% {
-            opacity:1;
+
+        @keyframes fadein {
+            0% {
+                opacity:0;
+            }
+            50%{
+                opacity:0.5;
+            }
+            100% {
+                opacity:1;
+            }
         }
-    }
 
         h1,
         h2{
@@ -31,26 +51,39 @@
             width: auto;
             height: 200px;
         }
+
+        .imagenes {
+            display: flex;
+        }
+
     </style>
-    <head>
-        <title>Alma <3</title>
-        <meta charset="utf-8">
-    </head>
+    
     <body>
-        <center>
+        <div class="imagenes">
             <img alt="<3" src="https://i.pinimg.com/originals/fa/72/c7/fa72c76b7347a654e17c7eabb3cc84bd.gif">
             <img alt="<3" src="https://i.pinimg.com/originals/34/b5/07/34b507213979439818a4f2c86c7a56c8.gif">
             <img alt="<3" src="https://i.pinimg.com/originals/c4/d7/cb/c4d7cb0ce3caa75a0897d0ad9c4c9d01.gif">
             <img alt="<3" src="https://i.pinimg.com/originals/74/b0/be/74b0be5b5b652cad970d2051e4bff798.gif">
-        </center>
-        
+            <img alt="<3" src="https://i.pinimg.com/originals/fa/72/c7/fa72c76b7347a654e17c7eabb3cc84bd.gif">
+            <img alt="<3" src="https://i.pinimg.com/originals/34/b5/07/34b507213979439818a4f2c86c7a56c8.gif">
+            <img alt="<3" src="https://i.pinimg.com/originals/c4/d7/cb/c4d7cb0ce3caa75a0897d0ad9c4c9d01.gif">
+            <img alt="<3" src="https://i.pinimg.com/originals/74/b0/be/74b0be5b5b652cad970d2051e4bff798.gif">
+            <img alt="<3" src="https://i.pinimg.com/originals/fa/72/c7/fa72c76b7347a654e17c7eabb3cc84bd.gif">
+            <img alt="<3" src="https://i.pinimg.com/originals/34/b5/07/34b507213979439818a4f2c86c7a56c8.gif">
+            <img alt="<3" src="https://i.pinimg.com/originals/c4/d7/cb/c4d7cb0ce3caa75a0897d0ad9c4c9d01.gif">
+            <img alt="<3" src="https://i.pinimg.com/originals/74/b0/be/74b0be5b5b652cad970d2051e4bff798.gif">
+        </div>
+
         <h1>Felices 5 meses</h1>
         <h2>te amo</h2>
 
-        <center>
+        <div class="imagenes">
             <img alt="<3" src="https://i.pinimg.com/originals/65/a9/30/65a9304329b0e41e1b808b796bb38565.gif">
             <img alt="<3" src="https://i.pinimg.com/originals/cb/c4/34/cbc434409c93d6c01afca1102c383028.gif">
             <img alt="<3" src="https://i.pinimg.com/originals/cb/c4/34/cbc434409c93d6c01afca1102c383028.gif">
-        </center>
+            <img alt="<3" src="https://i.pinimg.com/originals/65/a9/30/65a9304329b0e41e1b808b796bb38565.gif">
+            <img alt="<3" src="https://i.pinimg.com/originals/cb/c4/34/cbc434409c93d6c01afca1102c383028.gif">
+            <img alt="<3" src="https://i.pinimg.com/originals/cb/c4/34/cbc434409c93d6c01afca1102c383028.gif">
+        </div>
     </body>
 </html>
